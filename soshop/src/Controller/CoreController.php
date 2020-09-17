@@ -43,20 +43,20 @@ class CoreController extends AbstractController
          * @var User
          */
         $user2 = new User();
-        $user2->setFirstName("Daniel");
-        $user2->setLastName("Ricciardo");
-        $user2->setDateOfBirth(\DateTime::createFromFormat("j/F/Y", "1/July/1989"));
-        $user2->setEmail("honey.badger@fia.com");
+        $user2->setFirstName("Gasly");
+        $user2->setLastName("Pierre");
+        $user2->setDateOfBirth(\DateTime::createFromFormat("j/F/Y", "7/February/1996"));
+        $user2->setEmail("pierrot-monza2020@fia.com");
         $user2->setPhone("+33 07 054 58 74");
 
         /**
          * @var User
          */
         $user3 = new User();
-        $user3->setFirstName("Daniel");
-        $user3->setLastName("Ricciardo");
-        $user3->setDateOfBirth(\DateTime::createFromFormat("j/F/Y", "1/July/1989"));
-        $user3->setEmail("honey.badger@fia.com");
+        $user3->setFirstName("Vettel");
+        $user3->setLastName("Sebastian");
+        $user3->setDateOfBirth(\DateTime::createFromFormat("j/F/Y", "3/July/1987"));
+        $user3->setEmail("babyschumy@fia.com");
         $user3->setPhone("+33 08 054 58 74");
 
         /**
